@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_widget_option_labels">
+        <item>@string/pref_widget_label_nutella_pie</item>
+        <item>@string/pref_widget_label_brownies</item>
+        <item>@string/pref_widget_label_yellow_cake</item>
+        <item>@string/pref_widget_label_cheesecake</item>
+    </array>
+
+    <array name="pref_widget_option_values">
+        <item>@string/pref_widget_nutella_pie_value</item>
+        <item>@string/pref_widget_brownies_value</item>
+        <item>@string/pref_widget_yellow_cake_value</item>
+        <item>@string/pref_widget_cheesecake_value</item>
+    </array>
+</resources>

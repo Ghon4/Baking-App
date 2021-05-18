@@ -1,0 +1,49 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sv_detail_step">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.android.www.baking.Fragments.DetailStepFragment">
+
+        <TextView
+            android:id="@+id/tv_step_short_description"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/player_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/exo_player_view_height" />
+
+        <TextView
+            android:id="@+id/tv_step_description"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_thumbnail"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:contentDescription="@string/thumbnail_image_content_des"-->
+            <!--android:paddingTop="8dp"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--tools:src="@drawable/iv_reicpe_place_holder" />-->
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
